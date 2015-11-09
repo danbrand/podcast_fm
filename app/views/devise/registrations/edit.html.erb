@@ -1,6 +1,19 @@
 <div class="container">
 
-<h2>Edit <%= resource_name.to_s.humanize %></h2>
+<div class="row">
+
+<div class="col-md-8 col-md-offset-2">
+
+<div id="dashboard_banner">
+  <h1>The Rocketship Podcast Dashboard</h1>
+</div>
+
+<ul class="nav nav-tabs">
+  <li role="presentation" class="active"><a href="#">New Episode</a></li>
+  <li role="presentation"><a href="#">Episodes</a></li>
+  <li role="presentation"><%= link_to "Account Settings", edit_podcast_registration_path %></li>
+  <li role="presentation"><a href="#">View Podcast</a></li>
+</ul>
 
 <%= form_for(resource, as: resource_name, url: registration_path(resource_name), html: { method: :put }) do |f| %>
   <%= devise_error_messages! %>
@@ -65,7 +78,7 @@
 
 <p>Unhappy? <%= button_to "Cancel my account", registration_path(resource_name), data: { confirm: "Are you sure?" }, method: :delete %></p>
 
-<%= link_to "Back", :back %>
-
+</div>
+</div>
 </div>
 

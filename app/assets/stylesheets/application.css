@@ -68,4 +68,10 @@ input[type="email"], input[type="text"], input[type="password"], textarea {
 }
 */
 
+/* ----------------- DASHBOARD ----------- */
+
+#dashboard_banner h1{
+	text-align: center;
+	margin: 2em 0;
+}
 
