@@ -75,3 +75,14 @@ input[type="email"], input[type="text"], input[type="password"], textarea {
 	margin: 2em 0;
 }
 
+/* ----------------- PODCAST INDEX ----------- */
+
+.thumbnail {
+	margin-top: 2em;
+}
+
+/* ----------------- PODCAST SHOW ----------- */
+
+.container.podcast_show{
+	text-align: center;
+}
